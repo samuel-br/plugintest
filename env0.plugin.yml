@@ -1,12 +1,7 @@
 name: OPA
 icon: https://t.ly/4knY
-inputs:
- file:
-   type: string
-   required: true
- flags:
-   type: string
 run:
  exec: |
    echo ${inputs.file}
    echo ${inputs.flags}
+
