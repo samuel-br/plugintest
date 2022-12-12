@@ -1,5 +1,8 @@
 name: OPA
 icon: https://t.ly/4knY
+inputs:
+  flag: 
+  path:
 run:
  exec: |
    echo ${inputs.file}
