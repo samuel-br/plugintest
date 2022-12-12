@@ -1,6 +1,7 @@
 name: OPA
 icon: https://cncf-branding.netlify.app/img/projects/opa/stacked/color/opa-stacked-color.png
 inputs:
+  flag: 
 run:
   runtime: bash
   exec: |
