@@ -1,5 +1,11 @@
 name: OPA
 icon: https://t.ly/4knY
+inputs:
+  flag: 
+    required: false
+    description: 'this is description'
+  path:
+    description: 'wwewedwedwed'
 run:
  exec: |
    echo ${inputs.file}
