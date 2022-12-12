@@ -7,5 +7,5 @@ inputs:
 run:
  exec: |
    echo ${inputs.file}
-   echo ${inputs.flags}
+   echo ${inputs.flag}
 
