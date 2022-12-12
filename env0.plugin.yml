@@ -2,6 +2,7 @@ name: OPA
 icon: https://t.ly/4knY
 inputs:
   flag: 
+    required: true
   path:
 run:
  exec: |
