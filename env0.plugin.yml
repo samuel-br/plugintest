@@ -3,7 +3,9 @@ icon: https://t.ly/4knY
 inputs:
   flag: 
     required: true
+    description: 'this is description'
   path:
+    description: 'wwewedwedwed'
 run:
  exec: |
    echo ${inputs.file}
