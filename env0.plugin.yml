@@ -8,6 +8,6 @@ inputs:
     description: 'wwewedwedwed'
 run:
  exec: |
-   echo ${inputs.file}
+   echo ${inputs.path}
    echo ${inputs.flag}
 
