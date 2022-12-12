@@ -1,13 +1,10 @@
 name: OPA
-icon: https://t.ly/4knY
+icon: https://cncf-branding.netlify.app/img/projects/opa/stacked/color/opa-stacked-color.png
 inputs:
-  flag: 
-    required: true
-    description: 'this is description'
-  path:
-    description: 'wwewedwedwed'
-run:
- exec: |
-   echo ${inputs.path}
-   echo ${inputs.flag}
+  flags:
+    type: string
 
+run:
+  runtime: bash
+  exec: |
+    echo "123"
