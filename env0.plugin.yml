@@ -1,6 +1,9 @@
 name: OPA 
 icon: https://cncf-branding.netlify.app/img/projects/opa/stacked/color/opa-stacked-color.png
 inputs:
+  ani:
+    description: description
+    required: true
   flag: 
     required: true
     description: description
