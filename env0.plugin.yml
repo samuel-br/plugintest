@@ -8,6 +8,5 @@ inputs:
     required: true
     description: description
 run:
-  runtime: bash
   exec: |
     echo "123"
