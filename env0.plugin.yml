@@ -1,7 +1,6 @@
 name: OPA
 inputs:
   ani:
-    description: description
   flag: 
     description: description
 run:
